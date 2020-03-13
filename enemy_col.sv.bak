@@ -1,0 +1,5 @@
+module enemy_col(clk, reset);
+endmodule
+
+module enemy_col_tb();
+endmodule

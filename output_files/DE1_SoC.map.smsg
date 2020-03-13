@@ -1,0 +1,5 @@
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (10281): Verilog HDL Declaration information at player.sv(15): object "shoot" differs only in case from object "SHOOT" in the same scope File: D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/player.sv Line: 15
+Info (10281): Verilog HDL Declaration information at enemy_col.sv(5): object "right" differs only in case from object "RIGHT" in the same scope File: D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/enemy_col.sv Line: 5
+Info (10281): Verilog HDL Declaration information at enemy_col.sv(5): object "left" differs only in case from object "LEFT" in the same scope File: D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/enemy_col.sv Line: 5
+Warning (10034): Output port "LEDR" at DE1_SoC.sv(18) has no driver File: D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/DE1_SoC.sv Line: 18

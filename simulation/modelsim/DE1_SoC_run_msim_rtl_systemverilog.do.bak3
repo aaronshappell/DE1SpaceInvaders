@@ -1,0 +1,22 @@
+transcript on
+if ![file isdirectory DE1_SoC_iputf_libs] {
+	file mkdir DE1_SoC_iputf_libs
+}
+
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+###### Libraries for IPUTF cores 
+###### End libraries for IPUTF cores 
+###### MIF file copy and HDL compilation commands for IPUTF cores 
+
+
+vlog "D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/CLOCK25_PLL_sim/CLOCK25_PLL.vo"
+
+vlog -sv -work work +incdir+D:/OneDrive/Documents/UW/2019-2020/EE371/lab6 {D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/sprite.sv}
+vlog -sv -work work +incdir+D:/OneDrive/Documents/UW/2019-2020/EE371/lab6 {D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/enemy.sv}
+vlog -sv -work work +incdir+D:/OneDrive/Documents/UW/2019-2020/EE371/lab6 {D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/enemy_grid.sv}
+

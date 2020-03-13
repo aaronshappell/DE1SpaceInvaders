@@ -1,0 +1,553 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/OneDrive/Documents/UW/2019-2020/EE371/lab6/simulation/modelsim
+vAltera_UP_Audio_Bit_Counter
+Z1 !s110 1583897449
+!i10b 1
+!s100 J2Tb5SPZN>>^6S@MM9o:c1
+Io1ZDX>h]lY7`0ZfPC:=Pl1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1581627522
+8D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/Altera_UP_Audio_Bit_Counter.v
+FD:/OneDrive/Documents/UW/2019-2020/EE371/lab6/Altera_UP_Audio_Bit_Counter.v
+Z4 L0 49
+Z5 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z6 !s108 1583897449.000000
+!s107 D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/Altera_UP_Audio_Bit_Counter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/OneDrive/Documents/UW/2019-2020/EE371/lab6|D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/Altera_UP_Audio_Bit_Counter.v|
+!i113 1
+Z7 o-vlog01compat -work work
+Z8 !s92 -vlog01compat -work work +incdir+D:/OneDrive/Documents/UW/2019-2020/EE371/lab6
+Z9 tCvgOpt 0
+n@altera_@u@p_@audio_@bit_@counter
+vAltera_UP_Audio_In_Deserializer
+R1
+!i10b 1
+!s100 MnK8@IQLcda;1gGBW7@Tz0
+IzOI`;b>J`1=bN?>R`3XN;3
+R2
+R0
+R3
+8D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/Altera_UP_Audio_In_Deserializer.v
+FD:/OneDrive/Documents/UW/2019-2020/EE371/lab6/Altera_UP_Audio_In_Deserializer.v
+Z10 L0 47
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/Altera_UP_Audio_In_Deserializer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/OneDrive/Documents/UW/2019-2020/EE371/lab6|D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/Altera_UP_Audio_In_Deserializer.v|
+!i113 1
+R7
+R8
+R9
+n@altera_@u@p_@audio_@in_@deserializer
+vAltera_UP_Audio_Out_Serializer
+R1
+!i10b 1
+!s100 BllhdjOFFm6Rj]o@Xid882
+I5IE0CYo4hQ53cUPNVaXCb3
+R2
+R0
+R3
+8D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/Altera_UP_Audio_Out_Serializer.v
+FD:/OneDrive/Documents/UW/2019-2020/EE371/lab6/Altera_UP_Audio_Out_Serializer.v
+R10
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/Altera_UP_Audio_Out_Serializer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/OneDrive/Documents/UW/2019-2020/EE371/lab6|D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/Altera_UP_Audio_Out_Serializer.v|
+!i113 1
+R7
+R8
+R9
+n@altera_@u@p_@audio_@out_@serializer
+valtera_up_avalon_video_vga_timing
+R1
+!i10b 1
+!s100 d_[b<b>^^KQS=2DZ=dMJ;0
+ICbUP_eoH`HlZ6XTIkXJEd2
+R2
+R0
+Z11 w1583181958
+8D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/altera_up_avalon_video_vga_timing.v
+FD:/OneDrive/Documents/UW/2019-2020/EE371/lab6/altera_up_avalon_video_vga_timing.v
+R10
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/altera_up_avalon_video_vga_timing.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/OneDrive/Documents/UW/2019-2020/EE371/lab6|D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/altera_up_avalon_video_vga_timing.v|
+!i113 1
+R7
+R8
+R9
+vAltera_UP_Clock_Edge
+R1
+!i10b 1
+!s100 XaX6^HY04T3X?D32?HdN>2
+Ie@b5Q0hFWU5QISAjFg5>k2
+R2
+R0
+R3
+8D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/Altera_UP_Clock_Edge.v
+FD:/OneDrive/Documents/UW/2019-2020/EE371/lab6/Altera_UP_Clock_Edge.v
+Z12 L0 48
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/Altera_UP_Clock_Edge.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/OneDrive/Documents/UW/2019-2020/EE371/lab6|D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/Altera_UP_Clock_Edge.v|
+!i113 1
+R7
+R8
+R9
+n@altera_@u@p_@clock_@edge
+vAltera_UP_I2C
+R1
+!i10b 1
+!s100 JU94J3RToJ0DChmlIi^B43
+IYAa2j@ln[ecj:?l2>YjGf3
+R2
+R0
+R3
+8D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/Altera_UP_I2C.v
+FD:/OneDrive/Documents/UW/2019-2020/EE371/lab6/Altera_UP_I2C.v
+R12
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/Altera_UP_I2C.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/OneDrive/Documents/UW/2019-2020/EE371/lab6|D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/Altera_UP_I2C.v|
+!i113 1
+R7
+R8
+R9
+n@altera_@u@p_@i2@c
+vAltera_UP_I2C_AV_Auto_Initialize
+Z13 !s110 1583897448
+!i10b 1
+!s100 TbIA;9787GSRoV9be_N2^2
+IdN;XkoC80SPLCKchhd?nX2
+R2
+R0
+R3
+8D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/Altera_UP_I2C_AV_Auto_Initialize.v
+FD:/OneDrive/Documents/UW/2019-2020/EE371/lab6/Altera_UP_I2C_AV_Auto_Initialize.v
+R12
+R5
+r1
+!s85 0
+31
+Z14 !s108 1583897448.000000
+!s107 D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/Altera_UP_I2C_AV_Auto_Initialize.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/OneDrive/Documents/UW/2019-2020/EE371/lab6|D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/Altera_UP_I2C_AV_Auto_Initialize.v|
+!i113 1
+R7
+R8
+R9
+n@altera_@u@p_@i2@c_@a@v_@auto_@initialize
+vAltera_UP_Slow_Clock_Generator
+R13
+!i10b 1
+!s100 U@B3NehPQRXcdeI<e=@I53
+IbW0LBC;4CeY=?OH69Na1O1
+R2
+R0
+R3
+8D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/Altera_UP_Slow_Clock_Generator.v
+FD:/OneDrive/Documents/UW/2019-2020/EE371/lab6/Altera_UP_Slow_Clock_Generator.v
+L0 53
+R5
+r1
+!s85 0
+31
+R14
+!s107 D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/Altera_UP_Slow_Clock_Generator.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/OneDrive/Documents/UW/2019-2020/EE371/lab6|D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/Altera_UP_Slow_Clock_Generator.v|
+!i113 1
+R7
+R8
+R9
+n@altera_@u@p_@slow_@clock_@generator
+vAltera_UP_SYNC_FIFO
+R13
+!i10b 1
+!s100 jDg=^5VOBFbFho_;gZbiA1
+I80]V=5GNFST8<bU3=:U5f2
+R2
+R0
+R3
+8D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/Altera_UP_SYNC_FIFO.v
+FD:/OneDrive/Documents/UW/2019-2020/EE371/lab6/Altera_UP_SYNC_FIFO.v
+R10
+R5
+r1
+!s85 0
+31
+R14
+!s107 D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/Altera_UP_SYNC_FIFO.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/OneDrive/Documents/UW/2019-2020/EE371/lab6|D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/Altera_UP_SYNC_FIFO.v|
+!i113 1
+R7
+R8
+R9
+n@altera_@u@p_@s@y@n@c_@f@i@f@o
+vaudio_and_video_config
+R13
+!i10b 1
+!s100 z3>_mDg4hMjn4VjXHn00U3
+IO@dUJN3ZS]^E8hA;a<jb<2
+R2
+R0
+R3
+8D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/audio_and_video_config.v
+FD:/OneDrive/Documents/UW/2019-2020/EE371/lab6/audio_and_video_config.v
+R4
+R5
+r1
+!s85 0
+31
+R14
+!s107 D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/audio_and_video_config.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/OneDrive/Documents/UW/2019-2020/EE371/lab6|D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/audio_and_video_config.v|
+!i113 1
+R7
+R8
+R9
+vaudio_codec
+R13
+!i10b 1
+!s100 43h1ad@K@aG98IRVc4i1M1
+I@zhZHfo41D5H[;D`cF;PF3
+R2
+R0
+R3
+8D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/audio_codec.v
+FD:/OneDrive/Documents/UW/2019-2020/EE371/lab6/audio_codec.v
+R4
+R5
+r1
+!s85 0
+31
+R14
+!s107 D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/audio_codec.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/OneDrive/Documents/UW/2019-2020/EE371/lab6|D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/audio_codec.v|
+!i113 1
+R7
+R8
+R9
+vbcd
+Z15 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z16 !s110 1583897450
+!i10b 1
+!s100 TI]6Qmg8m?=]0kJn7=O]b3
+IhiZS11:RiIn<N[NLdU<NK2
+R2
+Z17 !s105 bcd_sv_unit
+S1
+R0
+Z18 w1583897430
+Z19 8D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/bcd.sv
+Z20 FD:/OneDrive/Documents/UW/2019-2020/EE371/lab6/bcd.sv
+L0 1
+R5
+r1
+!s85 0
+31
+Z21 !s108 1583897450.000000
+Z22 !s107 D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/bcd.sv|
+Z23 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/OneDrive/Documents/UW/2019-2020/EE371/lab6|D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/bcd.sv|
+!i113 1
+Z24 o-sv -work work
+Z25 !s92 -sv -work work +incdir+D:/OneDrive/Documents/UW/2019-2020/EE371/lab6
+R9
+vbcd_tb
+R15
+R16
+!i10b 1
+!s100 mBgfOEM>O?H0J@Ih>HmE=1
+I1k9H]nD^NM7DKIkI84PDn3
+R2
+R17
+S1
+R0
+R18
+R19
+R20
+L0 75
+R5
+r1
+!s85 0
+31
+R21
+R22
+R23
+!i113 1
+R24
+R25
+R9
+vCLOCK25_PLL
+R13
+!i10b 1
+!s100 [5VdkhTLeY18Wo>i2WMHD3
+IOzbRfz<9a5[H9@>XdKNlB1
+R2
+R0
+R11
+8D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/CLOCK25_PLL_sim/CLOCK25_PLL.vo
+FD:/OneDrive/Documents/UW/2019-2020/EE371/lab6/CLOCK25_PLL_sim/CLOCK25_PLL.vo
+L0 32
+R5
+r1
+!s85 0
+31
+R14
+!s107 D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/CLOCK25_PLL_sim/CLOCK25_PLL.vo|
+!s90 -reportprogress|300|D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/CLOCK25_PLL_sim/CLOCK25_PLL.vo|
+!i113 1
+R9
+n@c@l@o@c@k25_@p@l@l
+vclock_generator
+R13
+!i10b 1
+!s100 39OA<gKn`aijkLgT:8]8i2
+Ii8_aNRj48`H>]OE@mOL;e1
+R2
+R0
+R3
+8D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/clock_generator.v
+FD:/OneDrive/Documents/UW/2019-2020/EE371/lab6/clock_generator.v
+R12
+R5
+r1
+!s85 0
+31
+R14
+!s107 D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/clock_generator.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/OneDrive/Documents/UW/2019-2020/EE371/lab6|D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/clock_generator.v|
+!i113 1
+R7
+R8
+R9
+venemy
+R15
+R16
+!i10b 1
+!s100 bC7ZkL<Sk5QH81`ngYL2N3
+I>KJRj>d71ilGjo06H>d5Z2
+R2
+Z26 !s105 enemy_sv_unit
+S1
+R0
+Z27 w1583714771
+Z28 8D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/enemy.sv
+Z29 FD:/OneDrive/Documents/UW/2019-2020/EE371/lab6/enemy.sv
+L0 13
+R5
+r1
+!s85 0
+31
+R21
+Z30 !s107 D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/enemy.sv|
+Z31 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/OneDrive/Documents/UW/2019-2020/EE371/lab6|D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/enemy.sv|
+!i113 1
+R24
+R25
+R9
+venemy_tb
+R15
+R16
+!i10b 1
+!s100 UbY<NOz=F9o^MZzWNWA`03
+I9T>n]^flO8LZV7?j=hedn2
+R2
+R26
+S1
+R0
+R27
+R28
+R29
+L0 59
+R5
+r1
+!s85 0
+31
+R21
+R30
+R31
+!i113 1
+R24
+R25
+R9
+vmusic
+R15
+R16
+!i10b 1
+!s100 `fAb3]j??e:lc:<9]0^zI0
+I_hfF^ELcHY:;dP^>NL>1S3
+R2
+Z32 !s105 music_sv_unit
+S1
+R0
+Z33 w1583890297
+Z34 8D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/music.sv
+Z35 FD:/OneDrive/Documents/UW/2019-2020/EE371/lab6/music.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R21
+Z36 !s107 D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/music.sv|
+Z37 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/OneDrive/Documents/UW/2019-2020/EE371/lab6|D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/music.sv|
+!i113 1
+R24
+R25
+R9
+vmusic_tb
+R15
+R16
+!i10b 1
+!s100 fXD?<8P9SX4em`YS4DkiH2
+IJgO`i10O;PO4mWj7LPUel0
+R2
+R32
+S1
+R0
+R33
+R34
+R35
+L0 73
+R5
+r1
+!s85 0
+31
+R21
+R36
+R37
+!i113 1
+R24
+R25
+R9
+vplayer_testbench
+R15
+!s110 1583897451
+!i10b 1
+!s100 Mm9;]=8:`=mmJfl;^?]`X3
+IlG0Z?TPB[NPG`E>VA[DP90
+R2
+!s105 player_sv_unit
+S1
+R0
+w1583714579
+8D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/player.sv
+FD:/OneDrive/Documents/UW/2019-2020/EE371/lab6/player.sv
+L0 101
+R5
+r1
+!s85 0
+31
+!s108 1583897451.000000
+!s107 D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/player.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/OneDrive/Documents/UW/2019-2020/EE371/lab6|D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/player.sv|
+!i113 1
+R24
+R25
+R9
+vscore_disp
+R15
+R16
+!i10b 1
+!s100 B4`Nol=OU70=5CB1d?aFE0
+I8U3eLiOHeI<JWQcCj`fT]3
+R2
+!s105 score_disp_sv_unit
+S1
+R0
+w1583890212
+8D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/score_disp.sv
+FD:/OneDrive/Documents/UW/2019-2020/EE371/lab6/score_disp.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R21
+!s107 D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/score_disp.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/OneDrive/Documents/UW/2019-2020/EE371/lab6|D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/score_disp.sv|
+!i113 1
+R24
+R25
+R9
+vsprite
+R15
+R16
+!i10b 1
+!s100 W[^U<e97Tga]@JPZC4V9[3
+I3?bGXHz^VXX>B0LzJ:c=S0
+R2
+Z38 !s105 sprite_sv_unit
+S1
+R0
+Z39 w1583489249
+Z40 8D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/sprite.sv
+Z41 FD:/OneDrive/Documents/UW/2019-2020/EE371/lab6/sprite.sv
+L0 14
+R5
+r1
+!s85 0
+31
+R21
+Z42 !s107 D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/sprite.sv|
+Z43 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/OneDrive/Documents/UW/2019-2020/EE371/lab6|D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/sprite.sv|
+!i113 1
+R24
+R25
+R9
+vsprite_tb
+R15
+R16
+!i10b 1
+!s100 lf:gjd61hh<nFQK64B1mA1
+I;ab<;dMDBS7:ILZ@OQ57^3
+R2
+R38
+S1
+R0
+R39
+R40
+R41
+L0 34
+R5
+r1
+!s85 0
+31
+R21
+R42
+R43
+!i113 1
+R24
+R25
+R9

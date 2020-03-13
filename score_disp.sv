@@ -1,0 +1,52 @@
+/*
+score_disp.sv
+
+Aaron Shappell, 1739332
+Ryan Shappell, 1739333
+3/11/2020
+EE371
+Lab 6, Space Invaders
+
+This lab is the final project, we chose to implement the classic game Space Invaders on the DE1_SoC.
+*/
+
+// Displays a number digit sprite on the VGA screen for the given number input
+module score_disp 
+	#(parameter FILE = "numbers.txt", parameter W = 5, parameter H = 5)
+	(clk, reset, x, y, vga_x, vga_y, num, pixel);
+	
+	// Input and Output logic
+	input logic clk, reset;
+	input logic [9:0] x, vga_x;
+	input logic [8:0] y, vga_y;
+	input logic [3:0] num; // 0-9
+	output logic pixel;
+	
+	// Internal logic
+	logic [W-1:0] data [10*H-1:0];
+	logic [W-1:0] frame [H-1:0];
+	
+	// Read sprite data
+	initial
+		$readmemb(FILE, data);
+	
+	// Sprite instance
+	sprite #(W, H) s (.clk, .reset, .x, .y, .vga_x, .vga_y, .data(frame), .color(pixel));
+	
+	// Set sprite frame data for corresponding number
+	always_comb begin
+		case (num)
+			4'b0000: frame = data[H-1:0]; 		// 0
+			4'b0001: frame = data[2*H-1:H];		// 1
+			4'b0010: frame = data[3*H-1:2*H];	// 2
+			4'b0011: frame = data[4*H-1:3*H];	// 3
+			4'b0100: frame = data[5*H-1:4*H];	// 4
+			4'b0101: frame = data[6*H-1:5*H];	// 5
+			4'b0110: frame = data[7*H-1:6*H];	// 6
+			4'b0111: frame = data[8*H-1:7*H];	// 7
+			4'b1000: frame = data[9*H-1:8*H];	// 8
+			4'b1001: frame = data[10*H-1:9*H];	// 9
+			default: frame = data[H-1:0];			// 0
+		endcase
+	end
+endmodule

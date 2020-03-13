@@ -1,0 +1,249 @@
+# Reading C:/intelFPGA_lite/17.0/modelsim_ase/tcl/vsim/pref.tcl
+# do DE1_SoC_run_msim_rtl_systemverilog.do
+# if ![file isdirectory DE1_SoC_iputf_libs] {
+# 	file mkdir DE1_SoC_iputf_libs
+# }
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+###### Libraries for IPUTF cores 
+###### End libraries for IPUTF cores 
+###### MIF file copy and HDL compilation commands for IPUTF cores 
+# 
+# 
+# vlog "D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/CLOCK25_PLL_sim/CLOCK25_PLL.vo"
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:30:48 on Mar 10,2020
+# vlog -reportprogress 300 D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/CLOCK25_PLL_sim/CLOCK25_PLL.vo 
+# -- Compiling module CLOCK25_PLL
+# 
+# Top level modules:
+# 	CLOCK25_PLL
+# End time: 20:30:48 on Mar 10,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+D:/OneDrive/Documents/UW/2019-2020/EE371/lab6 {D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/clock_generator.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:30:48 on Mar 10,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/OneDrive/Documents/UW/2019-2020/EE371/lab6" D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/clock_generator.v 
+# -- Compiling module clock_generator
+# 
+# Top level modules:
+# 	clock_generator
+# End time: 20:30:48 on Mar 10,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/OneDrive/Documents/UW/2019-2020/EE371/lab6 {D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/audio_codec.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:30:48 on Mar 10,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/OneDrive/Documents/UW/2019-2020/EE371/lab6" D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/audio_codec.v 
+# -- Compiling module audio_codec
+# 
+# Top level modules:
+# 	audio_codec
+# End time: 20:30:48 on Mar 10,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/OneDrive/Documents/UW/2019-2020/EE371/lab6 {D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/audio_and_video_config.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:30:48 on Mar 10,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/OneDrive/Documents/UW/2019-2020/EE371/lab6" D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/audio_and_video_config.v 
+# -- Compiling module audio_and_video_config
+# 
+# Top level modules:
+# 	audio_and_video_config
+# End time: 20:30:48 on Mar 10,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/OneDrive/Documents/UW/2019-2020/EE371/lab6 {D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/Altera_UP_SYNC_FIFO.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:30:48 on Mar 10,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/OneDrive/Documents/UW/2019-2020/EE371/lab6" D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/Altera_UP_SYNC_FIFO.v 
+# -- Compiling module Altera_UP_SYNC_FIFO
+# 
+# Top level modules:
+# 	Altera_UP_SYNC_FIFO
+# End time: 20:30:48 on Mar 10,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/OneDrive/Documents/UW/2019-2020/EE371/lab6 {D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/Altera_UP_Slow_Clock_Generator.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:30:48 on Mar 10,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/OneDrive/Documents/UW/2019-2020/EE371/lab6" D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/Altera_UP_Slow_Clock_Generator.v 
+# -- Compiling module Altera_UP_Slow_Clock_Generator
+# 
+# Top level modules:
+# 	Altera_UP_Slow_Clock_Generator
+# End time: 20:30:48 on Mar 10,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/OneDrive/Documents/UW/2019-2020/EE371/lab6 {D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/Altera_UP_I2C_AV_Auto_Initialize.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:30:48 on Mar 10,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/OneDrive/Documents/UW/2019-2020/EE371/lab6" D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/Altera_UP_I2C_AV_Auto_Initialize.v 
+# -- Compiling module Altera_UP_I2C_AV_Auto_Initialize
+# 
+# Top level modules:
+# 	Altera_UP_I2C_AV_Auto_Initialize
+# End time: 20:30:48 on Mar 10,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/OneDrive/Documents/UW/2019-2020/EE371/lab6 {D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/Altera_UP_I2C.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:30:49 on Mar 10,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/OneDrive/Documents/UW/2019-2020/EE371/lab6" D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/Altera_UP_I2C.v 
+# -- Compiling module Altera_UP_I2C
+# 
+# Top level modules:
+# 	Altera_UP_I2C
+# End time: 20:30:49 on Mar 10,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/OneDrive/Documents/UW/2019-2020/EE371/lab6 {D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/Altera_UP_Clock_Edge.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:30:49 on Mar 10,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/OneDrive/Documents/UW/2019-2020/EE371/lab6" D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/Altera_UP_Clock_Edge.v 
+# -- Compiling module Altera_UP_Clock_Edge
+# 
+# Top level modules:
+# 	Altera_UP_Clock_Edge
+# End time: 20:30:49 on Mar 10,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/OneDrive/Documents/UW/2019-2020/EE371/lab6 {D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/Altera_UP_Audio_Out_Serializer.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:30:49 on Mar 10,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/OneDrive/Documents/UW/2019-2020/EE371/lab6" D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/Altera_UP_Audio_Out_Serializer.v 
+# -- Compiling module Altera_UP_Audio_Out_Serializer
+# 
+# Top level modules:
+# 	Altera_UP_Audio_Out_Serializer
+# End time: 20:30:49 on Mar 10,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/OneDrive/Documents/UW/2019-2020/EE371/lab6 {D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/Altera_UP_Audio_In_Deserializer.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:30:49 on Mar 10,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/OneDrive/Documents/UW/2019-2020/EE371/lab6" D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/Altera_UP_Audio_In_Deserializer.v 
+# -- Compiling module Altera_UP_Audio_In_Deserializer
+# 
+# Top level modules:
+# 	Altera_UP_Audio_In_Deserializer
+# End time: 20:30:49 on Mar 10,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/OneDrive/Documents/UW/2019-2020/EE371/lab6 {D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/Altera_UP_Audio_Bit_Counter.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:30:49 on Mar 10,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/OneDrive/Documents/UW/2019-2020/EE371/lab6" D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/Altera_UP_Audio_Bit_Counter.v 
+# -- Compiling module Altera_UP_Audio_Bit_Counter
+# 
+# Top level modules:
+# 	Altera_UP_Audio_Bit_Counter
+# End time: 20:30:49 on Mar 10,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/OneDrive/Documents/UW/2019-2020/EE371/lab6 {D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/altera_up_avalon_video_vga_timing.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:30:49 on Mar 10,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/OneDrive/Documents/UW/2019-2020/EE371/lab6" D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/altera_up_avalon_video_vga_timing.v 
+# -- Compiling module altera_up_avalon_video_vga_timing
+# 
+# Top level modules:
+# 	altera_up_avalon_video_vga_timing
+# End time: 20:30:49 on Mar 10,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/OneDrive/Documents/UW/2019-2020/EE371/lab6 {D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/sprite.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:30:50 on Mar 10,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/OneDrive/Documents/UW/2019-2020/EE371/lab6" D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/sprite.sv 
+# -- Compiling module sprite
+# -- Compiling module sprite_tb
+# 
+# Top level modules:
+# 	sprite_tb
+# End time: 20:30:50 on Mar 10,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/OneDrive/Documents/UW/2019-2020/EE371/lab6 {D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/music.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:30:50 on Mar 10,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/OneDrive/Documents/UW/2019-2020/EE371/lab6" D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/music.sv 
+# -- Compiling module music
+# -- Compiling module music_tb
+# 
+# Top level modules:
+# 	music
+# 	music_tb
+# End time: 20:30:50 on Mar 10,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/OneDrive/Documents/UW/2019-2020/EE371/lab6 {D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/bcd.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:30:50 on Mar 10,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/OneDrive/Documents/UW/2019-2020/EE371/lab6" D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/bcd.sv 
+# -- Compiling module bcd
+# -- Compiling module bcd_tb
+# 
+# Top level modules:
+# 	bcd_tb
+# End time: 20:30:50 on Mar 10,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/OneDrive/Documents/UW/2019-2020/EE371/lab6 {D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/score_disp.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:30:50 on Mar 10,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/OneDrive/Documents/UW/2019-2020/EE371/lab6" D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/score_disp.sv 
+# -- Compiling module score_disp
+# 
+# Top level modules:
+# 	score_disp
+# End time: 20:30:50 on Mar 10,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/OneDrive/Documents/UW/2019-2020/EE371/lab6 {D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/enemy.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:30:50 on Mar 10,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/OneDrive/Documents/UW/2019-2020/EE371/lab6" D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/enemy.sv 
+# -- Compiling module enemy
+# -- Compiling module enemy_tb
+# 
+# Top level modules:
+# 	enemy_tb
+# End time: 20:30:50 on Mar 10,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/OneDrive/Documents/UW/2019-2020/EE371/lab6 {D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/player.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:30:51 on Mar 10,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/OneDrive/Documents/UW/2019-2020/EE371/lab6" D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/player.sv 
+# -- Compiling module player
+# ** Error: D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/player.sv(39): (vlog-2730) Undefined variable: 'ps'.
+# ** Error: D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/player.sv(39): (vlog-2730) Undefined variable: 'IDLE'.
+# ** Error: D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/player.sv(44): Enum literal name 'IDLE' already exists.
+# ** Error (suppressible): D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/player.sv(44): (vlog-2388) 'ps' already declared in this scope (player).
+# -- Compiling module player_testbench
+# End time: 20:30:51 on Mar 10,2020, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# ** Error: C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./DE1_SoC_run_msim_rtl_systemverilog.do line 36
+# C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -sv -work work +incdir+D:/OneDrive/Documents/UW/2019-2020/EE371/lab6 {D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/player.sv}"
+vsim work.bcd_tb
+# vsim work.bcd_tb 
+# Start time: 20:30:54 on Mar 10,2020
+# Loading sv_std.std
+# Loading work.bcd_tb
+# Loading work.bcd
+add wave -position end  sim:/bcd_tb/clk
+add wave -position end  sim:/bcd_tb/reset
+add wave -position end  sim:/bcd_tb/in
+add wave -position end  sim:/bcd_tb/out
+add wave -position end  sim:/bcd_tb/dut/bin
+add wave -position end  sim:/bcd_tb/dut/ones
+add wave -position end  sim:/bcd_tb/dut/tens
+add wave -position end  sim:/bcd_tb/dut/huns
+add wave -position end  sim:/bcd_tb/dut/thous
+add wave -position end  sim:/bcd_tb/dut/tenthous
+add wave -position end  sim:/bcd_tb/dut/done
+add wave -position end  sim:/bcd_tb/dut/ps
+add wave -position end  sim:/bcd_tb/dut/ns
+run -all
+# ** Note: $stop    : D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/bcd.sv(94)
+#    Time: 10050 ps  Iteration: 1  Instance: /bcd_tb
+# Break in Module bcd_tb at D:/OneDrive/Documents/UW/2019-2020/EE371/lab6/bcd.sv line 94
+# End time: 20:31:20 on Mar 10,2020, Elapsed time: 0:00:26
+# Errors: 0, Warnings: 0

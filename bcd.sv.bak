@@ -1,0 +1,5 @@
+module bcd(clk, reset, in, out);
+	input logic clk, reset;
+	input logic [14:0] in;
+	output logic [] out;
+endmodule

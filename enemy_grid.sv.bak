@@ -1,0 +1,8 @@
+module enemy_grid(clk, reset);
+
+	enemy #("enemy2.txt", 11, 8) e2 (.clk(CLOCK_50), .reset, .side_in(side2), .sx, .sy, .vga_x(x), .vga_y(y), .bx, .by, .draw(draw1), .dead(dead1), .side(side1), .r(rs[0]), .g(gs[0]), .b(bs[0]));
+	enemy #("enemy2.txt", 11, 8) e2b (.clk(CLOCK_50), .reset, .side_in(side1), .sx(sx+14), .sy, .vga_x(x), .vga_y(y), .bx, .by, .draw(draw2), .dead(dead2), .side(side2), .r(rs[1]), .g(gs[1]), .b(bs[1]))
+endmodule
+
+module enemy_grid_tb();
+endmodule

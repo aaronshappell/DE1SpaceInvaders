@@ -1,0 +1,128 @@
+/*
+enemy.sv
+
+Aaron Shappell, 1739332
+Ryan Shappell, 1739333
+2/25/2020
+EE371
+Lab 6, Space Invaders
+
+This lab is the final project, we chose to implement the classic game Space Invaders on the DE1_SoC.
+*/
+
+module enemy
+	#(parameter FILE = "enemy1.txt", parameter W = 8, parameter H = 8)
+	(clk, reset, sx, sy, vga_x, vga_y, bx, by, draw, dead, r, g, b);
+	// Input and output logic
+	input logic clk, reset;
+	input logic [9:0] sx, vga_x, bx;
+	input logic [8:0] sy, vga_y, by;
+	output logic draw, dead;
+	output logic [7:0] r, g, b;
+	
+	// Internal logic
+	logic [W-1:0] data [2*H-1:0]; // sprite data for two frames
+	logic [9:0] x;
+	logic [8:0] y;
+	logic color;
+	logic [] delay;
+	
+	// Read sprite data
+	initial
+		$readmemb(FILE, data);
+	
+	sprite #(W, H) s (.clk, .reset, .x, .y, .vga_x, .vga_y, .data(data[H-1:0]), .draw, .color);
+	
+	assign r = 8'b11111111 & {8{color}};
+	assign g = 8'b00000000 & {8{color}};
+	assign b = 8'b00000000 & {8{color}};
+	
+	// States
+	enum {IDLER, RIGHT, DOWNR, IDLEL, LEFT, DOWNL} ps, ns;
+	
+	// Next state logic
+	always_comb begin
+		case(ps)
+			IDLER:
+				if(delay == 0 && ~edgeR)
+					ns = RIGHT;
+				else if(delay == 0 && edgeR)
+					ns = DOWNR;
+				else
+					ns = IDLER;
+			RIGHT:
+				ns = IDLER;
+			DOWNR:
+				ns = IDLEL;
+			IDLEL:
+				if(delay == 0 && ~edgeL)
+					ns = LEFT;
+				else if(delay == 0 && edgeL)
+					ns = DOWNL;
+				else
+					ns = IDLEL;
+			LEFT:
+				ns = IDLEL;
+			DOWNL:
+				ns = IDLER;
+		endcase
+	end
+	
+	// Sequential DFF logic
+	always_ff @(posedge clk) begin
+		if(reset) begin
+			ps <= IDLER;
+			delay <= 4; // TODO fix this
+			dead <= 0;
+			x <= sx;
+			y <= sy;
+		end else begin
+			ps <= ns;
+			dead = ~dead ? (bx >= x && bx <= (x + W - 1)) && (by >= y && by <= (y + H - 1)) : dead;
+			// update enemy after frame drawn
+			if(vga_x == asdf && vga_y == asdf) begin
+				delay <= delay - 1'b1;
+			end
+		end
+	end
+endmodule
+
+/*
+Tests all possible inputs of the enemy module to verify the outputs and functionality.
+*/
+module enemy_tb();
+	// Test logic
+	logic clk, reset;
+	logic [9:0] sx, vga_x, bx;
+	logic [8:0] sy, vga_y, by;
+	logic draw, dead;
+	logic [7:0] r, g, b;
+	
+	// Device under test
+	enemy dut (.*);
+	
+	// Setup clock
+	parameter CLOCK_PERIOD = 100;
+	initial begin
+		clk <= 0;
+		forever #(CLOCK_PERIOD / 2) clk <= ~clk;
+	end
+	
+	// Test inputs
+	initial begin
+		reset <= 1; sx <= 4; sy <= 4; @(posedge clk);
+		reset <= 0; bx <= 6; by <= 15;
+		for(int row = 0; row < 15; row++) begin
+			vga_y <= row;
+			for(int col = 0; col < 15; col++) begin
+				vga_x <= col; @(posedge clk);
+			end
+		end
+		by <= 6;
+		@(posedge clk);
+		by <= 15;
+		@(posedge clk);
+		@(posedge clk);
+		$stop;
+	end
+endmodule

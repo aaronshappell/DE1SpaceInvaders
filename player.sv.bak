@@ -1,0 +1,5 @@
+module player (clk, reset, x, y);
+	input logic clk, reset;
+	
+	
+endmodule
